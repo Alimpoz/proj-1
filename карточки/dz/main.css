@@ -1,0 +1,75 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    bottom: 0;
+    border: 0;
+    background-image: url(./pattern/pattern_stars_circles_138343_1400x1050.jpg);
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: end; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.mainButton{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    border-radius: 40%;
+    font-size: 24px;
+    border:3px rgb(15, 2, 2) solid;
+}
+.carsImg{
+    height: 200px;
+    width: 150px;
+    background-image: url(./pattern/R.jpg);
+    margin: 20px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.wrapImg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img{
+    max-width: 150px;
+    height: 200px;
+    border-radius: 20%;
+}
+.removeImg{
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 20%;
+}
+.finish{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* align-content: end; */
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+}
+.h2Finish{
+    background: gold;
+    box-shadow: 0 -200px 100px -120px rgb(3, 87, 0) inset;
+}
+
+@media (width:400px){
+    .wrapImg{
+        display: flex;
+        flex-direction: column;
+    }
+}
